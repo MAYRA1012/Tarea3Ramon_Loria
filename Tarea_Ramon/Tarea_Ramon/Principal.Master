@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="Tarea_Ramon.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+       <LINK rel="stylesheet" type="text/css" href="styles.css">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+  <center>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+               </center>
+    </form>
+</body>
+</html>
